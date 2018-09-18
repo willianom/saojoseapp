@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SaoJoseFCApp</string>
+
+    <string name="json_tabela">
+        "{'jogos':
+          [
+            {'id' : '1',
+             'time_mand' : 'São José FC',
+             'time_visit' : 'Sampaio Jr. FC',
+             'placar_mand' : '2',
+             'placar_visit' : '0',
+             'data_hora' : '28/01/18 - 10:00',
+             'local' : 'Campo Paulo Roberto - São José',
+             'campeonato' : 'Campeonato São José I - 2018'},
+            {'id' : '2',
+             'time_mand' : 'São José FC',
+             'time_visit' : 'Internacional FC',
+             'placar_mand' : '3',
+             'placar_visit' : '0',
+             'data_hora' : '04/02/18 - 14:00',
+             'local' : 'Campo Paulo Roberto - São José',
+             'campeonato' : 'Campeonato São José I - 2018'}
+          ]
+        }"
+    </string>
+
+    <string name="json_campeonato">
+        "{'campeonato':
+          [
+            {'id_campeonato' : '1',
+             'nome_campeonato' : 'Campeonato Amador do Amazonas',
+             'data_inicio' : '10/03/2018',
+             'atual_campeao' : 'São José FC'},
+            {'id_campeonato' : '2',
+             'nome_campeonato' : 'Campeonato do São José I',
+             'data_inicio' : '14/04/2018',
+             'atual_campeao' : 'São José FC'}
+          ]
+        }"
+    </string>
+
+    <string name="json_elenco">
+        "{'elenco':
+          [
+            {'id_jogador' : '1',
+             'nome_jogador' : 'Nueliton Pereira',
+             'apelido_jogador' : 'Ton',
+             'idade_jogador' : '32',
+             'posicao_jogador' : 'Atacante'},
+            {'id_jogador' : '2',
+             'nome_jogador' : 'Willian Matos',
+             'apelido_jogador' : 'Willian Cabeça',
+             'idade_jogador' : '30',
+             'posicao_jogador' : 'Lateral Direito'}
+          ]
+        }"
+    </string>
+
+
+</resources>

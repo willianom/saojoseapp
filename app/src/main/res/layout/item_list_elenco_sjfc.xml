@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="7dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/imgJogador"
+            android:layout_width="250px"
+            android:layout_height="200px"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgJogador"
+            android:gravity="left|center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtNomeJogador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nueliton Pereira"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtApelidoJogador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ton" />
+
+            <TextView
+                android:id="@+id/txtPosicaoJogador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atacante" />
+
+            <TextView
+                android:id="@+id/txtIdadeJogador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="33 anos" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

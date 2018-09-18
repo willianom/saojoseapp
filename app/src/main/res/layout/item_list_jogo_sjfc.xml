@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="7dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtDataHoraJogo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Data e Horário"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtLocalJogo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Local do Jogo"
+            android:layout_below="@+id/txtDataHoraJogo"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/txtLocalJogo">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtTimeMand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="São José FC"/>
+
+                <ImageView
+                    android:id="@+id/imgTimeMand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtPlacarMand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="15dp"
+                    android:text="X"
+                    android:textSize="30dp"/>
+
+                <TextView
+                    android:id="@+id/txtPlacarVisit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="0"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtTimeVisit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABC FC"/>
+
+                <ImageView
+                    android:id="@+id/imgTimeVisit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
